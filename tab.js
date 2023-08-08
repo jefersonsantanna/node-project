@@ -29,7 +29,7 @@ app.post('/add-points/:id' , (req, res) => {
 }
 
 team.points += pointsToAdd;
-res.json({ message:'Pontos adicionados com Sucesso', team });
+res.json({ message:'Pontos adicionados com sucesso', team });
 });
 
 app.listen(4000, () => {
